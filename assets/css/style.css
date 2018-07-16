@@ -4,9 +4,9 @@
 	box-sizing:border-box;
 }
 
-.wire {
+/* .wire {
 	border: 1px solid red;
-}
+} */
 .img1{
 	width:50px; 
 	height:50px;
@@ -18,7 +18,7 @@
 }
 
 body {
-	background-image: url(../images/chairdog.jpg);
+	background-image: url(../images/stripes.jpg);
 }
 
 .main1 {		
@@ -28,4 +28,58 @@ body {
 
 #jumbo1 {
 	padding-top:20px;
+}
+
+#leftright{
+	min-height: 500px;
+}
+
+#nav1{
+	background-color:#CB793A;
+
+}
+
+.jumbo2{
+	color: white;
+	margin-left: 480px;
+
+}
+.row1{
+	background-color:rgba(101,67,35, 0.5);
+}
+.left{
+	background-color: rgba(101,67,35, 0.5);
+	color: white;
+}
+.right {
+	background-color:rgba(101,67,35, 0.5);
+	color:white;
+}
+
+.img-thumbnail{
+	height:300px;
+	width:350px;
+	background-color: rgba(0, 0, 0, 0.5);	
+}
+.freshly {
+	position:relative;
+	bottom: 300px;
+	left:370px;
+	
+}
+.form1{
+
+}
+
+#thumbnail {
+	width:350px;
+	height:300px;
+	margin-left: 400px;
+	margin-top:-80px;
+}
+
+#borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+   
 }
