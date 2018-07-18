@@ -13,12 +13,16 @@
 <body>
 
 
+	<header>
 		<div>
-			<nav class="navbar col-lg-12 wire" >
+			<nav class="navbar wire" >
 				<img class="img1 ml-auto" src="assets/images/logo101.jpg" >
-
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav mr-auto">
+			</nav> 
+		</div>		
+			
+			 
+				<!-- <div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ">
 						<li class="nav-item"> 
 							<a class="nav-link" href="#">Nav Item1</a>
 						</li>
@@ -30,81 +34,148 @@
 						</li>	
 					</ul>
 				</div>
+			</div>	navbar end -->
 
-			</nav> <!-- navbar end -->
-		</div>
+			<div class="wire">
+				<div>
+					<img src="assets/images/dishes.jpg" class="img2">
+				</div><br>
+
+				
+			</div>
+
+			<nav class="navbar navnav navbar-expand-lg navbar-light" >
+					<a class="navbar-brand" href="#">Home</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 								aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link naver" href="#">Dishes<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link naver" href="#">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link naver" href="#">About</a>
+				</li>
+				
+				</ul>
+			</div>
+			</nav>
+	</header>
+
+		
+		
 
 		<main class="main1">
 
-				<div class="wire row">
-					<div>
-						<img src="assets/images/dishes.jpg" class="img2">
-					</div>
-				</div><br>
+			
 
-				<div class="row">
-					<nav class="navbar col-lg-12 wire navbar-light" id="nav1">
-						<a class="navbar-brand" href="#">Home</a>
-						<a class="navbar-brand" href="#">Content</a>
-						<a class="navbar-brand" href="#">Dishes</a>
-						<a class="navbar-brand" href="#">About Benj.Resto</a>	
-					</nav>
-				</div>
 				<div class="row wire row1">
-						<div>
+						<div class="col-lg-12">
 							<h1 class="jumbo2">Benj.Resto</h1>		
 						</div>
-					</div><br>
+				</div><br>
 
 				<div class="row wire" id="leftright">
 					<div class="wire col-lg-8 left"> <!-- left -->
-						<p id="borderimg1">Benj resto is a western cuisine and a casual restaurant , we serve delicious western dishes and specialties,
-						we also offer discount that might brought you back for many times. Our services will give you satisfaction,
-						a potential service crew that has proffesional personalities and knowledge about the products they serve. 
-						We also deliver our fresh dishes from kitchen to your door.
-						So if you are hungry and looking for standby our door is open from 10am to 9pm..</p>
-						<img class="img-thumbnail" src="assets/images/chef.jpg" alt="">
-						<h3 class="freshly">Freshly prepared everyday</h3>
-						<p class="freshly">The success of a restaurant is made of the details...
-						<br>	Our job is built from zero everyday.
-						In the morning, <br> everything is raw, nothing is cooked.
-						</p>
-						<img id="thumbnail" class="img-thumbnail" src="assets/images/interior.jpg" alt="">
-						<h3>Conservative Invironment</h3>
-						<p></p>
-					</div>	
+	
+						<div class="row">
+							<div class="col-lg-12 wire">
+								<p id="borderimg1">Benj resto is a western cuisine and a casual restaurant , we serve delicious western dishes and specialties,
+									we also offer discount that might brought you back for many times. Our services will give you satisfaction,
+									a potential service crew that has proffesional personalities and knowledge about the products they serve. 
+									We also deliver our fresh dishes from kitchen to your door.
+									So if you are hungry and looking for standby our door is open from 10am to 9pm..</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-5 wire">
+								<img class="img-thumbnail" src="assets/images/chef.jpg" alt="">
+							</div>
+							<div class="col-lg-7">
+								<h3 class="freshly">Freshly prepared everyday</h3>
+								<p class="freshly">The success of a restaurant is made of the details...
+								<br>	Our job is built from zero everyday.
+								In the morning, <br> everything is raw, nothing is cooked.
+								</p>
+							</div>
+						</div>  <hr>
+
+						<div class="row conserv">
+							<div class="col-lg-5 wire">
+								<h3 class="conserv">Conservative Invironment</h3>
+								<p class="conserv">Cleanliness is absurd especially in production places,  we believed that cleanliness of products comes from  good environment. We managed to keep up our sanitations and captivating style inside and outside.</p>
+							</div>
+							<div class="col-lg-7 wire">
+								<img id="thumbnail" class="img-thumbnail" src="assets/images/interior.jpg" alt="">
+							</div>
+						</div>	
+						
+					</div> <!-- end of left -->	
+					
+
+
+
 					<div class="wire col-lg-4 right"> <!-- right -->
 						<h2>We Deliver</h2>
 						<form action="" class="form1">
-							Username:<input type="text" name="text"><br>
-							Password: <input type="password" name="password"><br>
-							<button>Confirm</button>
+							Username: <br> <input class="form-control " type="text" name="text"><br>
+							Password: <br> <input class="form-control" type="password" name="password"><br>
+							<button type="submit" class="btn btn-primary buton">Confirm</button> 
+							<button type="submit" class="btn btn-primary buton">Sign-up</button>
+						</form><hr>
+						<form action="">
+							<div class="row reserv wire"> 
+								<div  class="container-fluid">
+									<p> <strong> Reserve</strong> a table ask for today's special or just send us a message:</p>
+									<p><input class="form-control" type="text" name="name" id="" placeholder="Name"></p>
+									<p><input class="form-control" type="number" name="people" id="" placeholder="Number of guest"></p>
+									<p><input class="form-control" type="datetime-local" name="date" id="" placeholder="date and time" value="2018-7-18 t20:00"></p>
+									<textarea class="form-control" name="message" id="" placeholder="Message" cols="30" rows="5"></textarea>
+									<button type="submit" class="btn btn-primary buton">Submit</button>
+								</div>
+							</div>
 						</form>
-						
+					</div>
+				</div>	<br> <!-- end of content -->
+			
+			
+				<div class="row wire rowfeat">
+					<div class="col-lg-12">
+						<h2 class="feat">FEATURE DISHES</h2>
 					</div>
 
-				</div>	<br>
-				<div class="wire row ">
-					<div class="wire col-lg-4 jumbotron">
-						<h2>Wazzup</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco </p>					
+				</div>
+			
+				<div class=" row col-lg-12">
+					<div class="wire col-lg-4" >
+						<p> <img src="assets/images/feature3.jpg" alt="" class="feature">
+						<h3 class="featname">Round-house Pizza Supreme</h3>
+					</p>
 					</div>
-					<div class="wire col-lg-4 jumbotron">
-						<h2>Wazzup</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco </p>					
+					<div class="wire col-lg-4">
+						<p> <img src="assets/images/feature2.jpg" alt="" class="feature">
+						<h3 class="featname">Roast Beaf with vegetable</h3>
+						</p>
 					</div>
-					<div class="wire col-lg-4 jumbotron">
-						<h2>Wazzup</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco </p>					
+					<div class="wire col-lg-4">
+						<p> <img src="assets/images/feature.jpg" alt="" class="feature">
+						<h3 class="featname">Benj.Resto Classic Pasta</h3>
+						</p>
 					</div>
 					
 				</div>
+				
+		
+		</main>
+
+
+
 
 		<footer class="row">
 				<div class="col-lg-12">
@@ -112,12 +183,6 @@
 					<p class="footer">Copyright &copy; Sitename 2015 </p>
 				</div>
 			</footer>
-		</main>
-
-
-
-
-
 
 
 
