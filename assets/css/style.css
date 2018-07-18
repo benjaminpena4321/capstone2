@@ -4,16 +4,15 @@
 	box-sizing:border-box;
 }
 
-.wire {
-	border: 1px solid red;
-}
+
 .img1{
 	width:150px; 
-	height:150px;
+	height:70px;
+	border-radius:20%;
 
 }
 .img2 {
-	height: 500px;
+	height: 900px;
 	width:100%;
 }
 
@@ -21,10 +20,10 @@ body {
 	background-image: url(../images/stripes.jpg);
 }
 
+
 .main1 {		
 	padding-left:50px;
-	padding-right:50px;
-	
+	padding-right:50px;	
 }
 
 #jumbo1 {
@@ -37,8 +36,6 @@ body {
 
 .navnav{
 	background-color:#CB793A;
-
-
 }
 
 .jumbo2{
@@ -91,6 +88,7 @@ body {
 .buton {
 	margin-top:20px;
 	background-color: brown;
+	color:white;
 }
 
 .naver {
@@ -98,7 +96,7 @@ body {
 }
 
 .feature {
-	height:100%;
+	height:340px;
 	width:100%;
 	
 }
@@ -120,3 +118,67 @@ body {
 head {
 	overflow: hidden;
 }
+
+.featmain {
+	background-color: rgba(101,67,35, 0.5);
+ }
+
+footer{
+	background-color: #CB793A;
+	height: 80px;
+}
+
+	<!--pc-->
+@media only screen and (min-width: 961px) { 
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+	<!--tablet-->
+@media only screen and (min-width: 416px) and (max-width: 960px) { 
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+<!--mobile-->
+
+@media only screen and (max-width: 415px) {
+-
+
+
+
+
+
+
+ }
