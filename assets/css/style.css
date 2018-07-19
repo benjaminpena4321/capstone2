@@ -8,23 +8,26 @@
 .img1{
 	width:150px; 
 	height:70px;
-	border-radius:20%;
+	border-radius:25px;
 
 }
-.img2 {
-	height: 900px;
-	width:100%;
+.text {
+	text-align:center;
+	padding-top: 30px;
 }
+
 
 body {
 	background-image: url(../images/stripes.jpg);
 }
 
 
-.main1 {		
-	padding-left:50px;
-	padding-right:50px;	
+.wire{
+	border: 1px solid red;
 }
+
+
+
 
 #jumbo1 {
 	padding-top:20px;
@@ -55,15 +58,8 @@ body {
 	color:white;
 }
 
-.img-thumbnail{
-	height:300px;
-	width:350px;
-	background-color: rgba(0, 0, 0, 0.5);	
-}
 
-.form1{
 
-}
 
 
 #borderimg1 { 
@@ -82,9 +78,7 @@ body {
 	
 	
 }
-.conserv {
-	margin-top:20px;
-}
+
 .buton {
 	margin-top:20px;
 	background-color: brown;
@@ -100,6 +94,11 @@ body {
 	width:100%;
 	
 }
+
+.main1 {
+	padding:20px; 
+}
+
 .feat {
 	text-align: center;
 	color: white;
@@ -119,24 +118,46 @@ head {
 	overflow: hidden;
 }
 
-.featmain {
-	background-color: rgba(101,67,35, 0.5);
- }
+
+#link {
+ padding-right: 10px;
+}
+
 
 footer{
 	background-color: #CB793A;
 	height: 80px;
 }
 
-	<!--pc-->
+
+	/*PC*/
 @media only screen and (min-width: 961px) { 
 
 
+	.featmain {
+		background-color: rgba(101,67,35, 0.5);
+	 }
 
 
+.conserv {
+		margin-top:20px;
+	}
 
+	.img2 {
+		height: 700px;
+		width:100%;
+	}
 
+	#thumbconserv {
+		height:300px;
+		width:350px;
+	}
 
+	.img-thumbnail {
+		height:300px;
+		width:350px;
+		background-color: rgba(0, 0, 0, 0.5);	
+	}
 
 
 
@@ -148,18 +169,48 @@ footer{
 
 
 
-	<!--tablet-->
+	/*tablet*/
 @media only screen and (min-width: 416px) and (max-width: 960px) { 
 
 
 
+	
+	.featmain {
+		background-color: rgba(101,67,35, 0.5);
+	 }
+
+	 .conserv {
+		text-align: center;
+		position: relative;
+		top: 140px;
+	}
 
 
+	.img2 {
+		height: 600px;
+		width:100%;
+		
+	}
 
+	#thumbconserv {
+		height:300px;
+		width:350px;
+		margin-left: 0px;
+		position: relative;
+		bottom:300px;
+	}
 
+	.freshly	{
+		text-align:center;
+	}
 
-
-
+	.img-thumbnail {
+		height:300px;
+		width:350px;
+		background-color: rgba(0, 0, 0, 0.5);	
+		position: relative;
+		margin-left:185px;
+	}
 
 }
 
@@ -170,15 +221,51 @@ footer{
 
 
 
-
-<!--mobile-->
+/*mobile*/
 
 @media only screen and (max-width: 415px) {
--
+
+
+	
+	.featmain {
+		background-color: rgba(101,67,35, 0.5);
+		
+	 }
+
+	 .conserv {
+		margin-top:20px;
+		position: relative;
+		top: 130px;
+		text-align: center;
+	}
+
+	
+	.img2 {
+		height: 400px;
+		width:100%;
+	}
+
+	#thumbconserv {
+		height:300px;
+		width:350px;
+		position: relative;
+		bottom:360px;
+	}
+
+	.img-thumbnail {
+		height:300px;
+		width:350px;
+		background-color: rgba(0, 0, 0, 0.5);	
+	}
+
+	.freshly{
+		text-align: center;
+	}
 
 
 
 
 
 
- }
+
+}
