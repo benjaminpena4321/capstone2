@@ -74,10 +74,10 @@ body {
 }
 .reserv {
 	background-color:#CB793A;
-	min-height:450px;
-	
-	
+	min-height:450px;		
 }
+
+
 
 .buton {
 	margin-top:20px;
@@ -263,11 +263,24 @@ footer{
 	.freshly{
 		text-align: center;
 	}
+}
 
 
 
 
 
 
+/* style 2 */
 
+.starter {
+	text-align: center;
+	color: white;
+	
+}
+.startcol {
+	background-color: rgba(101,67,35, 0.5);
+}
+
+.hr1{
+	border: 3px solid gray;
 }
