@@ -22,9 +22,9 @@ body {
 }
 
 
-.wire{
+/* .wire{
 	border: 1px solid red;
-}
+} */
 
 
 
@@ -145,7 +145,7 @@ footer{
 	}
 
 	.img2 {
-		height: 700px;
+		height: 500px;
 		width:100%;
 	}
 
@@ -158,6 +158,9 @@ footer{
 		height:300px;
 		width:350px;
 		background-color: rgba(0, 0, 0, 0.5);	
+	}
+	.footing{
+		background-color:#CB793A;
 	}
 
 
@@ -214,6 +217,10 @@ footer{
 		margin-left:110px;
 	}
 
+	.footing{
+		background-color:#CB793A;
+	}
+
 }
 
 
@@ -237,7 +244,7 @@ footer{
 	 .conserv {
 		margin-top:20px;
 		position: relative;
-		top: 130px;
+		top: 145px;
 		text-align: center;
 	}
 
@@ -251,7 +258,7 @@ footer{
 		height:300px;
 		width:350px;
 		position: relative;
-		bottom:360px;
+		bottom:400px;
 	}
 
 	.img-thumbnail {
@@ -262,6 +269,10 @@ footer{
 
 	.freshly{
 		text-align: center;
+	}
+
+	.footing{
+		background-color:#CB793A;
 	}
 
 
